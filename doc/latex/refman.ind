@@ -1,0 +1,190 @@
+\begin{theindex}
+
+  \item {$\sim $AppClass}
+    \subitem {AppClass}, \hyperpage{6}
+  \item {$\sim $MainAppWindow}
+    \subitem {MainAppWindow}, \hyperpage{7}
+  \item {$\sim $MainComponent}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {$\sim $XmlParser}
+    \subitem {XmlParser}, \hyperpage{11}
+
+  \indexspace
+
+  \item {about}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {anotherInstanceStarted}
+    \subitem {AppClass}, \hyperpage{6}
+  \item {AppClass}, \hyperpage{5}
+    \subitem {$\sim $AppClass}, \hyperpage{6}
+    \subitem {anotherInstanceStarted}, \hyperpage{6}
+    \subitem {AppClass}, \hyperpage{6}
+    \subitem {getApplicationName}, \hyperpage{6}
+    \subitem {getApplicationVersion}, \hyperpage{6}
+    \subitem {initialise}, \hyperpage{6}
+    \subitem {m\_\discretionary {-}{}{}commandManager}, \hyperpage{6}
+    \subitem {moreThanOneInstanceAllowed}, \hyperpage{6}
+    \subitem {shutdown}, \hyperpage{6}
+    \subitem {theMainWindow}, \hyperpage{6}
+
+  \indexspace
+
+  \item {button1}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {buttonClicked}
+    \subitem {MainComponent}, \hyperpage{9}
+
+  \indexspace
+
+  \item {closeButtonPressed}
+    \subitem {MainAppWindow}, \hyperpage{7}
+  \item {CommandIDs}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {configFile}
+    \subitem {XmlParser.cpp}, \hyperpage{19}
+
+  \indexspace
+
+  \item {getAllCommands}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {getApplicationName}
+    \subitem {AppClass}, \hyperpage{6}
+  \item {getApplicationVersion}
+    \subitem {AppClass}, \hyperpage{6}
+  \item {getCommandInfo}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {getInstance}
+    \subitem {XmlParser}, \hyperpage{11}
+  \item {getMenuBarNames}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {getMenuForIndex}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {getNextCommandTarget}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {getPicturePath}
+    \subitem {XmlParser}, \hyperpage{11}
+
+  \indexspace
+
+  \item {hochZaehler}
+    \subitem {MainComponent}, \hyperpage{9}
+
+  \indexspace
+
+  \item {initialise}
+    \subitem {AppClass}, \hyperpage{6}
+
+  \indexspace
+
+  \item {m\_\discretionary {-}{}{}commandManager}
+    \subitem {AppClass}, \hyperpage{6}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}image}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}instance}
+    \subitem {XmlParser}, \hyperpage{11}
+  \item {m\_\discretionary {-}{}{}mainWindow}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}picturePath}
+    \subitem {XmlParser}, \hyperpage{11}
+  \item {m\_\discretionary {-}{}{}schalter}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}text}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}text2}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}timerOn}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {m\_\discretionary {-}{}{}zaehler}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {Main.cpp}, \hyperpage{13}
+  \item {MainAppWindow}, \hyperpage{7}
+    \subitem {$\sim $MainAppWindow}, \hyperpage{7}
+    \subitem {closeButtonPressed}, \hyperpage{7}
+    \subitem {MainAppWindow}, \hyperpage{7}
+  \item {MainAppWindow.cpp}, \hyperpage{14}
+  \item {MainAppWindow.h}, \hyperpage{15}
+  \item {MainComponent}, \hyperpage{8}
+    \subitem {$\sim $MainComponent}, \hyperpage{9}
+    \subitem {about}, \hyperpage{9}
+    \subitem {button1}, \hyperpage{10}
+    \subitem {buttonClicked}, \hyperpage{9}
+    \subitem {CommandIDs}, \hyperpage{9}
+    \subitem {getAllCommands}, \hyperpage{9}
+    \subitem {getCommandInfo}, \hyperpage{9}
+    \subitem {getMenuBarNames}, \hyperpage{9}
+    \subitem {getMenuForIndex}, \hyperpage{9}
+    \subitem {getNextCommandTarget}, \hyperpage{9}
+    \subitem {hochZaehler}, \hyperpage{9}
+    \subitem {m\_\discretionary {-}{}{}commandManager}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}image}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}mainWindow}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}schalter}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}text}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}text2}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}timerOn}, \hyperpage{10}
+    \subitem {m\_\discretionary {-}{}{}zaehler}, \hyperpage{10}
+    \subitem {MainComponent}, \hyperpage{9}
+    \subitem {menuItemSelected}, \hyperpage{9}
+    \subitem {operator=}, \hyperpage{9}
+    \subitem {paint}, \hyperpage{9}
+    \subitem {perform}, \hyperpage{10}
+    \subitem {resized}, \hyperpage{10}
+    \subitem {timerCallback}, \hyperpage{10}
+    \subitem {tooltipWindow}, \hyperpage{10}
+  \item {MainComponent.cpp}, \hyperpage{16}
+  \item {MainComponent.h}, \hyperpage{17}
+  \item {menuItemSelected}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {moreThanOneInstanceAllowed}
+    \subitem {AppClass}, \hyperpage{6}
+  \item {MyJuceApp\_\discretionary {-}{}{}Headers.h}, \hyperpage{18}
+
+  \indexspace
+
+  \item {operator=}
+    \subitem {MainComponent}, \hyperpage{9}
+
+  \indexspace
+
+  \item {paint}
+    \subitem {MainComponent}, \hyperpage{9}
+  \item {perform}
+    \subitem {MainComponent}, \hyperpage{10}
+
+  \indexspace
+
+  \item {readConfig}
+    \subitem {XmlParser}, \hyperpage{11}
+  \item {resized}
+    \subitem {MainComponent}, \hyperpage{10}
+
+  \indexspace
+
+  \item {shutdown}
+    \subitem {AppClass}, \hyperpage{6}
+
+  \indexspace
+
+  \item {theMainWindow}
+    \subitem {AppClass}, \hyperpage{6}
+  \item {timerCallback}
+    \subitem {MainComponent}, \hyperpage{10}
+  \item {tooltipWindow}
+    \subitem {MainComponent}, \hyperpage{10}
+
+  \indexspace
+
+  \item {XmlParser}, \hyperpage{11}
+    \subitem {$\sim $XmlParser}, \hyperpage{11}
+    \subitem {getInstance}, \hyperpage{11}
+    \subitem {getPicturePath}, \hyperpage{11}
+    \subitem {m\_\discretionary {-}{}{}instance}, \hyperpage{11}
+    \subitem {m\_\discretionary {-}{}{}picturePath}, \hyperpage{11}
+    \subitem {readConfig}, \hyperpage{11}
+    \subitem {XmlParser}, \hyperpage{11}
+  \item {XmlParser.cpp}, \hyperpage{19}
+    \subitem {configFile}, \hyperpage{19}
+  \item {XmlParser.h}, \hyperpage{20}
+
+\end{theindex}
