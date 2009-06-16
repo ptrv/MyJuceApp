@@ -121,6 +121,11 @@
 			D078802D0FE7DB100091B792 = D078802D0FE7DB100091B792 /* PBXTextBookmark */;
 			D078819C0FE8220A0091B792 /* PBXTextBookmark */ = D078819C0FE8220A0091B792 /* PBXTextBookmark */;
 			D078819F0FE822280091B792 /* PBXTextBookmark */ = D078819F0FE822280091B792 /* PBXTextBookmark */;
+			D07881A00FE83F030091B792 /* PBXTextBookmark */ = D07881A00FE83F030091B792 /* PBXTextBookmark */;
+			D07881A10FE83F030091B792 /* PBXTextBookmark */ = D07881A10FE83F030091B792 /* PBXTextBookmark */;
+			D07881A20FE83F030091B792 /* PBXTextBookmark */ = D07881A20FE83F030091B792 /* PBXTextBookmark */;
+			D07881A30FE83F030091B792 /* PBXTextBookmark */ = D07881A30FE83F030091B792 /* PBXTextBookmark */;
+			D07881A40FE83F030091B792 /* PBXTextBookmark */ = D07881A40FE83F030091B792 /* PBXTextBookmark */;
 			D0A1725D0FCC68F80027501B = D0A1725D0FCC68F80027501B /* PBXTextBookmark */;
 		};
 		sourceControlManager = D08EA3D20EF35AD1009B21B2 /* Source Control */;
@@ -436,6 +441,56 @@
 		vrLen = 887;
 		vrLoc = 0;
 	};
+	D07881A00FE83F030091B792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D08EA4370EF35C8C009B21B2 /* Main.cpp */;
+		name = "Main.cpp: 82";
+		rLen = 7;
+		rLoc = 3540;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 2842;
+	};
+	D07881A10FE83F030091B792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D08EA43B0EF35C8C009B21B2 /* MainComponent.h */;
+		name = "MainComponent.h: 7";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 787;
+		vrLoc = 399;
+	};
+	D07881A20FE83F030091B792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D08EA43B0EF35C8C009B21B2 /* MainComponent.h */;
+		name = "MainComponent.h: 7";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 787;
+		vrLoc = 399;
+	};
+	D07881A30FE83F030091B792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D08EA4370EF35C8C009B21B2 /* Main.cpp */;
+		name = "Main.cpp: 82";
+		rLen = 7;
+		rLoc = 3540;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 2842;
+	};
+	D07881A40FE83F030091B792 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D08EA43B0EF35C8C009B21B2 /* MainComponent.h */;
+		name = "MainComponent.h: 7";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 887;
+		vrLoc = 0;
+	};
 	D08EA3CB0EF35ABB009B21B2 /* MyJuceApp */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -511,7 +566,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {829, 1740}}";
 			sepNavSelRange = "{3540, 7}";
-			sepNavVisRange = "{2897, 1642}";
+			sepNavVisRange = "{2842, 1249}";
 		};
 	};
 	D08EA4380EF35C8C009B21B2 /* MainAppWindow.cpp */ = {
@@ -537,7 +592,7 @@
 	};
 	D08EA43B0EF35C8C009B21B2 /* MainComponent.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {829, 2175}}";
+			sepNavIntBoundsRect = "{{0, 0}, {829, 2250}}";
 			sepNavSelRange = "{211, 0}";
 			sepNavVisRange = "{0, 887}";
 		};

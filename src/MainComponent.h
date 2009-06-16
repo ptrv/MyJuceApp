@@ -4,7 +4,7 @@
 
 #ifndef _MAINCOMPONENT_H_ 
 #define _MAINCOMPONENT_H_ 
-//test2
+//test3
 
 class MainComponent  : public Component,
 					   public MenuBarModel,
