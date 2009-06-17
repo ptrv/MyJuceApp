@@ -95,8 +95,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 266884638;
-			PBXWorkspaceStateSaveDate = 266884638;
+			PBXPerProjectTemplateStateSaveDate = 266890935;
+			PBXWorkspaceStateSaveDate = 266890935;
 		};
 		perUserProjectItems = {
 			D00DC2970F8FCDF100E7C92E = D00DC2970F8FCDF100E7C92E /* PBXTextBookmark */;
@@ -108,7 +108,8 @@
 			D0571DA40F8C18D1002158A9 = D0571DA40F8C18D1002158A9 /* PBXTextBookmark */;
 			D0571DA50F8C18D1002158A9 = D0571DA50F8C18D1002158A9 /* PBXTextBookmark */;
 			D057617D0FE84FE700E83EB4 = D057617D0FE84FE700E83EB4 /* PBXTextBookmark */;
-			D057648E0FE8562400E83EB4 /* PBXTextBookmark */ = D057648E0FE8562400E83EB4 /* PBXTextBookmark */;
+			D05764910FE8587100E83EB4 = D05764910FE8587100E83EB4 /* PBXTextBookmark */;
+			D05765AB0FE86EBD00E83EB4 /* PBXTextBookmark */ = D05765AB0FE86EBD00E83EB4 /* PBXTextBookmark */;
 			D0672A2E0FA744C60085D243 = D0672A2E0FA744C60085D243 /* PBXTextBookmark */;
 			D0672A300FA744C60085D243 = D0672A300FA744C60085D243 /* PBXTextBookmark */;
 			D0672A340FA744C60085D243 = D0672A340FA744C60085D243 /* PBXTextBookmark */;
@@ -120,7 +121,6 @@
 			D07880280FE7DA970091B792 = D07880280FE7DA970091B792 /* PlistBookmark */;
 			D07880290FE7DA970091B792 = D07880290FE7DA970091B792 /* PlistBookmark */;
 			D07881A00FE83F030091B792 = D07881A00FE83F030091B792 /* PBXTextBookmark */;
-			D07881AF0FE846500091B792 = D07881AF0FE846500091B792 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D08EA3D20EF35AD1009B21B2 /* Source Control */;
 		userBuildSettings = {
@@ -303,7 +303,17 @@
 		vrLen = 887;
 		vrLoc = 0;
 	};
-	D057648E0FE8562400E83EB4 /* PBXTextBookmark */ = {
+	D05764910FE8587100E83EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D08EA43B0EF35C8C009B21B2 /* MainComponent.h */;
+		name = "MainComponent.h: 7";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 887;
+		vrLoc = 0;
+	};
+	D05765AB0FE86EBD00E83EB4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D08EA43B0EF35C8C009B21B2 /* MainComponent.h */;
 		name = "MainComponent.h: 7";
@@ -424,16 +434,6 @@
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 2842;
-	};
-	D07881AF0FE846500091B792 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D08EA43B0EF35C8C009B21B2 /* MainComponent.h */;
-		name = "MainComponent.h: 7";
-		rLen = 0;
-		rLoc = 211;
-		rType = 0;
-		vrLen = 887;
-		vrLoc = 0;
 	};
 	D08EA3CB0EF35ABB009B21B2 /* MyJuceApp */ = {
 		isa = PBXExecutable;
