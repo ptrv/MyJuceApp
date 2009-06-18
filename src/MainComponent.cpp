@@ -97,7 +97,7 @@ void MainComponent::timerCallback()
 	//DBG_SCOPE();
 	if (m_schalter)
 	{
-		m_text = T("Hallo Peter");
+		m_text = T("Hallo");
 		repaint();
 		m_schalter = false;
 	}
