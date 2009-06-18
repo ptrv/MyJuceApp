@@ -22,12 +22,12 @@ DocumentWindow ( T("MyJuceApp"),
 
 	MainComponent* contentComponent = new MainComponent (this, commandManager);
 
+
+    setContentComponent (contentComponent);
+
 #if defined(LINUX)
     setMenuBar(contentComponent);
 #endif
-
-    setContentComponent (contentComponent);
-	//setMenuBar(contentComponent);
 	//setMenuBar(setMacMainMenu(contentComponent));
 
 }
