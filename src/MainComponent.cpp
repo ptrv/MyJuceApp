@@ -48,7 +48,7 @@ void MainComponent::resized()
 	button1->setBounds(getWidth() / 2 - 40, getHeight() - 100, 80, 30);
 }
 
-void MainComponent::paint(juce::Graphics& g)
+void MainComponent::paint(Graphics& g)
 {
 	//DBG_SCOPE();
 	LOG_SCOPE();
