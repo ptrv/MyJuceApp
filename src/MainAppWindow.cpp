@@ -3,40 +3,43 @@
  ==========================================================*/
 
 #include "MyJuceApp_Headers.h"
-#include "MainAppWindow.h" 
-#include "MainComponent.h" 
+#include "MainAppWindow.h"
+#include "MainComponent.h"
 
-//============================================================================== 
-MainAppWindow::MainAppWindow(ApplicationCommandManager* commandManager) 
-:    
-// Initialise the base 'DocumentWindow'... 
+//==============================================================================
+MainAppWindow::MainAppWindow(ApplicationCommandManager* commandManager)
+:
+// Initialise the base 'DocumentWindow'...
 DocumentWindow ( T("MyJuceApp"),
-				Colours::lightgrey, 
+				Colours::lightgrey,
 				DocumentWindow::allButtons,
 				true
-				) 
-{ 
-    setResizable (true, false); // resizability is a property of ResizableWindow, which is 
-	
-	setTitleBarHeight (25);      // Set the height of the titlebar on our window. 
-	
+				)
+{
+    setResizable (true, false); // resizability is a property of ResizableWindow, which is
+
+	setTitleBarHeight (25);      // Set the height of the titlebar on our window.
+
 	MainComponent* contentComponent = new MainComponent (this, commandManager);
-	
-	
+
+#if defined(LINUX)
+    setMenuBar(contentComponent);
+#endif
+
     setContentComponent (contentComponent);
 	//setMenuBar(contentComponent);
 	//setMenuBar(setMacMainMenu(contentComponent));
-	
-} 
 
-MainAppWindow::~MainAppWindow() 
-{ 
+}
+
+MainAppWindow::~MainAppWindow()
+{
     setMenuBar(0);
-	
-	setContentComponent(0, true);
-} 
 
-void MainAppWindow::closeButtonPressed() 
-{ 
-	JUCEApplication::getInstance()->systemRequestedQuit(); 
-} 
+	setContentComponent(0, true);
+}
+
+void MainAppWindow::closeButtonPressed()
+{
+	JUCEApplication::getInstance()->systemRequestedQuit();
+}

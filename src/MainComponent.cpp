@@ -16,8 +16,9 @@ m_commandManager(commandManager)
 	LOG_SCOPE();
 	m_commandManager->registerAllCommandsForTarget(this);
 	setApplicationCommandManagerToWatch(m_commandManager);
+#if !defined(LINUX)
 	setMacMainMenu(this);
-	
+#endif
 	button1 = new TextButton(T("Button 1"));
 	button1->addButtonListener(this);
 	m_schalter = true;
@@ -26,17 +27,19 @@ m_commandManager(commandManager)
 	m_text2 = T("Hallo3");
 	m_text2 = Time::getCurrentTime().toString(true, true, true, true);
 	m_text2 = XmlParser::getInstance().getPicturePath();
-	
+
 	DBG_VAL(m_text2);
 	m_zaehler = 0;
 	hochZaehler();
-	m_zaehler;
-	
+//	m_zaehler;
+
 }
 
 MainComponent::~MainComponent()
 {
+#if !defined(LINUX)
 	setMacMainMenu(0);
+#endif
 	deleteAllChildren();
 }
 
@@ -82,9 +85,9 @@ void MainComponent::buttonClicked(Button* button)
 			startTimer(500);
 			m_timerOn = true;
 		}
-		
+
 	}
-	
+
 	//LOG_VAL(button1->getName());
 }
 
@@ -105,12 +108,12 @@ void MainComponent::timerCallback()
 	}
 	//DBG_VAL(m_schalter);
 	LOG_VAL(m_schalter);
-	
+
 }
 
 void MainComponent::hochZaehler()
 {
-	for (int i = 0; i < 10; ++i) 
+	for (int i = 0; i < 10; ++i)
 	{
 		m_zaehler += 3;
 	}

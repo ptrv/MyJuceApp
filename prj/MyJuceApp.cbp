@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MyJuceApp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/MyJuceAppD" prefix_auto="0" extension_auto="0" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DLINUX" />
+					<Add option="-DDEBUG" />
+					<Add option="-D_DEBUG" />
+					<Add option="-ggdb" />
+					<Add directory="../../MyLib/build" />
+					<Add directory="../../MyLib/juce" />
+					<Add directory="../../MyLib/include" />
+					<Add directory="/usr/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../bin" />
+					<Add directory="../../MyLib/bin" />
+					<Add directory="../../MyLib/lib" />
+					<Add directory="../../MyLib/juce/bin" />
+					<Add directory="/usr/lib" />
+					<Add library="GL" />
+					<Add library="GLU" />
+					<Add library="Xxf86vm" />
+					<Add library="Xinerama" />
+					<Add library="pthread" />
+					<Add library="freetype" />
+					<Add library="tcpd" />
+					<Add library="traced" />
+					<Add library="juce_debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/MyJuceApp" prefix_auto="0" extension_auto="0" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O" />
+					<Add option="-DLINUX" />
+					<Add option="-DNDEBUG" />
+					<Add directory="../../MyLib/build" />
+					<Add directory="../../MyLib/juce" />
+					<Add directory="../../MyLib/include" />
+					<Add directory="/usr/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../bin" />
+					<Add directory="../../MyLib/bin" />
+					<Add directory="../../MyLib/lib" />
+					<Add directory="../../MyLib/juce/bin" />
+					<Add directory="/usr/lib" />
+					<Add library="GL" />
+					<Add library="GLU" />
+					<Add library="Xxf86vm" />
+					<Add library="Xinerama" />
+					<Add library="pthread" />
+					<Add library="freetype" />
+					<Add library="tcp" />
+					<Add library="trace" />
+					<Add library="juce" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../src/XmlParser.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/MainAppWindow.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/MainComponent.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/MyJuceApp_Headers.h">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/XmlParser.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/MainComponent.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/MainAppWindow.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../src/Main.cpp">
+			<Option compilerVar="CPP" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
