@@ -23,8 +23,8 @@ m_commandManager(commandManager)
 	button1->addButtonListener(this);
 	m_schalter = true;
 	m_timerOn = false;
-	m_text = T("Hallo");
-	m_text2 = T("Hallo3");
+	m_text = T("Test");
+	m_text2 = T("Test2");
 	m_text2 = Time::getCurrentTime().toString(true, true, true, true);
 	m_text2 = XmlParser::getInstance().getPicturePath();
 
@@ -59,8 +59,8 @@ void MainComponent::paint(Graphics& g)
 	g.setFont(20);
 	g.drawText(m_text2, getWidth()/2 - 100, getHeight()/2 , 200, 80, 4, false);
 	m_image = ImageCache::getFromFile(File(File::getCurrentWorkingDirectory().getChildFile(XmlParser::getInstance().getPicturePath())));
-	//m_image = ImageCache::getFromFile(File(XmlParser::getInstance().getPicturePath()));
-	//m_image = ImageCache::getFromFile(XmlParser::getInstance().getPicturePath());
+    m_image = ImageCache::getFromFile(File(XmlParser::getInstance().getPicturePath()));
+	m_image = ImageCache::getFromFile(XmlParser::getInstance().getPicturePath());
 	g.drawImageAt(m_image, 0, 0, false);
 	ImageCache::release(m_image);
 	DBG_VAL(m_text2);
@@ -97,7 +97,7 @@ void MainComponent::timerCallback()
 	//DBG_SCOPE();
 	if (m_schalter)
 	{
-		m_text = T("Hallo");
+		m_text = T("Test");
 		repaint();
 		m_schalter = false;
 	}
