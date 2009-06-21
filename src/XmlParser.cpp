@@ -6,7 +6,7 @@
 #include "XmlParser.h"
 
 //using namespace juce;
-static const String& configFile(T("../../data/MyJuceAppConfig.xml"));
+static const String& configFile(T("../data/MyJuceAppConfig.xml"));
 
 XmlParser* XmlParser::m_instance = 0;
 

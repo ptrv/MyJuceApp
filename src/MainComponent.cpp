@@ -59,8 +59,8 @@ void MainComponent::paint(Graphics& g)
 	g.setFont(20);
 	g.drawText(m_text2, getWidth()/2 - 100, getHeight()/2 , 200, 80, 4, false);
 	m_image = ImageCache::getFromFile(File(File::getCurrentWorkingDirectory().getChildFile(XmlParser::getInstance().getPicturePath())));
-    m_image = ImageCache::getFromFile(File(XmlParser::getInstance().getPicturePath()));
-	m_image = ImageCache::getFromFile(XmlParser::getInstance().getPicturePath());
+//    m_image = ImageCache::getFromFile(File(XmlParser::getInstance().getPicturePath()));
+//	m_image = ImageCache::getFromFile(XmlParser::getInstance().getPicturePath());
 	g.drawImageAt(m_image, 0, 0, false);
 	ImageCache::release(m_image);
 	DBG_VAL(m_text2);

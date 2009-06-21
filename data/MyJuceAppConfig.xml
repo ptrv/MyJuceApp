@@ -2,5 +2,5 @@
 
 
 <configuration>
-	<pictures path="../../data/images/Pic1.png" />
+	<pictures path="../data/images/Pic1.png" />
 </configuration>
